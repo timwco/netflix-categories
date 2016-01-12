@@ -1,0 +1,32 @@
+nav, footer.page-footer {
+  background-color: #E50914;
+}
+
+footer.page-footer {
+  padding-top: 0;
+}
+
+.sub-category::before { 
+  content: " ";
+  padding-left: 25px; 
+}
+
+.filter-title {
+  color: #E50914;
+}
+.sub-of {
+  font-size: 11px;
+  padding-left: 10px;
+  font-style: italic;
+  color: #76858d;
+}
+
+.copyright-stuff { color: white; font-size: 12px; }
+.copyright-stuff a { color: white; }
+
+input:not([type]):focus:not([readonly]), input[type=text]:focus:not([readonly]), input[type=password]:focus:not([readonly]), input[type=email]:focus:not([readonly]), input[type=url]:focus:not([readonly]), input[type=time]:focus:not([readonly]), input[type=date]:focus:not([readonly]), input[type=datetime-local]:focus:not([readonly]), input[type=tel]:focus:not([readonly]), input[type=number]:focus:not([readonly]), input[type=search]:focus:not([readonly]), textarea.materialize-textarea:focus:not([readonly]) {
+    border-bottom: 1px solid #E50914;
+    box-shadow: 0 1px 0 0 #E50914;
+}
+
+/* Red: #E50914 */
