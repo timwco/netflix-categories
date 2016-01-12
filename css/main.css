@@ -20,6 +20,9 @@ footer.page-footer {
   font-style: italic;
   color: #76858d;
 }
+.instafilta-match {
+  text-decoration: underline;
+}
 
 .copyright-stuff { color: white; font-size: 12px; }
 .copyright-stuff a { color: white; }
