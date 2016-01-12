@@ -4,7 +4,7 @@
   var collection = '';
 
   // Get File
-  $.getJSON('js/data.json', function (res) {
+  $.getJSON('data/subcategories.json', function (res) {
 
     res.forEach( function (cat) {
 
@@ -26,6 +26,21 @@
       sections: '.collection-item',
       markMatches: true
     });
+
+  });
+
+  // Get All Movies
+  var cont2 = $('#cont2');
+  var allCollection = '';
+  $.getJSON('data/categories.json', function (res) {
+
+    res.forEach( function (cat) {
+
+      allCollection += '<a target="_blank" href="http://www.netflix.com/browse/genre/' + cat.id + '" class="collection-item sub-category">' + cat.name + '</a>';
+
+    });
+
+    cont2.append(allCollection);
 
   });
 
