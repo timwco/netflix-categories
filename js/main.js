@@ -23,8 +23,7 @@
     // Filter Starter
     $('#search').instaFilta({
       targets: '.filter-title',
-      sections: '.collection-item',
-      beginsWith: true
+      sections: '.collection-item'
     });
 
   });
